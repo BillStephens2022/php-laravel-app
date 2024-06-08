@@ -20,7 +20,6 @@ services:
     env_file:
       - ./env/mysql.env
     
-
   composer:
     build:
       context: /dockerfiles
